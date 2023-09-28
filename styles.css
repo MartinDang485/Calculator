@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outerContainer {
+    display: flex;
+    border: 1px solid;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    flex: 0;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+}
+
+#output {
+    width: 300px;
+    height: 70px;
+    border: 1px solid;
+    margin: 1px;
+}
+
+.rowOne {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#ac {
+    flex-grow: 3;
+}
+
+#delete, #divide {
+    flex-grow: 1;
+}
+
+.rowFive {
+    display: flex;
+    justify-content: space-between;
+}
+
+#equal {
+    flex-grow: 1.5;
+}
