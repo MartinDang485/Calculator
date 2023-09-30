@@ -1,35 +1,52 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 #outerContainer {
     display: flex;
-    border: 1px solid;
-    height: 400px;
     width: 300px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#buttonContainer {
+    margin: 0;
+    padding: 0;
 }
 
 button {
     width: 70px;
     height: 50px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 0;
 }
 
 #output {
+    display: flex;
+    align-items: center;
     width: 300px;
-    height: 70px;
-    border: 1px solid;
-    margin: 1px;
+    height: 80px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .75);
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
 }
 
 .rowOne {
     display: flex;
-    justify-content: space-between;
-
+    gap: 4px;
+    margin: 0;
 }
 
 #ac {
@@ -43,8 +60,9 @@ button {
 .rowFive {
     display: flex;
     justify-content: space-between;
+    gap: 4px;
 }
 
 #equal {
-    flex-grow: 1.5;
+    flex-grow: 1;
 }
